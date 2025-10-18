@@ -14,7 +14,7 @@ const Form = () => {
         {TAB.map((c, index) => (
           <div
             key={index}
-            className="border border-black p-4 m-3 inline-block hover:bg-gray-300 shadow-neutral-400"
+            className="border border-black p-3 m-3 inline-block hover:bg-gray-300 shadow-neutral-400"
           >
             <button
               className="cursor-pointer"
